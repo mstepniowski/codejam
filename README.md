@@ -1,4 +1,4 @@
-codejam
-=======
+Code Jam
+========
 
-My Google Code Jam solutions
+My Google Code Jam solutions.
