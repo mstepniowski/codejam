@@ -76,8 +76,10 @@ def solution(A):
             add_node(tree, node)
         else:
             remove_node(tree, node)
-            # for real discs (here we have circles):
+            # For real discs (here we have circles):
             # result += count_starting_after(tree, node.start)
+            #
+            # See also the simpler solution: beta_simple.py
             result += tree.count
             if result > MAX_N:
                 return -1
